@@ -1,8 +1,15 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "experimentalDecorators": true,
     "rootDir": ".",
-    "outDir": "build"
+    "outDir": "build",
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
   },
   "include": [
     "src/**/*.ts",
