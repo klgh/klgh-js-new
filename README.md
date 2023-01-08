@@ -1,7 +1,8 @@
-# Angular on Netlify Quick Start Template    
+# Angular on Netlify Quick Start Template
+
 ![netlify + angular logo](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png)
 
-This is a bare-bones Angular project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
+This is a bare-bones Angular project that has everything you need to quickly deploy it to [Netlify](https://netlify.com).
 
 Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
 
@@ -23,6 +24,7 @@ Click this button and it will help you create a new repo, create a new Netlify p
 ## Setup
 
 Clone this repo with one of these options:
+
 - Click the 'Deploy to Netlify' button above
 - Click the 'Use this template' button at the top of the page
 - Or via the command line `git clone https://github.com/netlify-templates/angular-quickstart`
@@ -34,39 +36,40 @@ npm install
 ng serve
 ```
 
-Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
+Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/).
 
 > 🚨 If you decide to change the project name be sure to change it everywhere in the project including the [Netlify configuration file, `netlify.toml`](./netlify.toml), as there are many places in Angular projects where the project name is used. A quick fix is to find/replace all instances of `angular-quickstart` with your project name.
 
 ## Deploying
 
 There are a few ways to deploy this template:
-- Click the 'Deploy to Netlify' button above 
+
+- Click the 'Deploy to Netlify' button above
 - Use the `netlify deploy` command
 - Head to the [Netlify UI](https://app.netlify.com/) to deploy via GitHub or [drag and drop](https://app.netlify.com/drop) the project folder
 - Use the Netlify CLI's create from template command `netlify sites:create-template angular-quickstart` which will create a repo, Netlify project, and deploy it
 
 ## Styling
 
-We've added some modern styling to this template using css within an external stylesheet, this will allow you to easily remove our styling and add in your own. 
+We've added some modern styling to this template using css within an external stylesheet, this will allow you to easily remove our styling and add in your own.
 
-If you decide that you want to keep our styling you can review our style notes below. 
+If you decide that you want to keep our styling you can review our style notes below.
 
 ### Notes on Styling
 
-The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body. 
+The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body.
 
 ```css
 // Controls the blob blur gradient colors within the main tag's svg
---top-right-blur-1: #20C6B7;
---top-right-blur-2: #4D9ABF;
+--top-right-blur-1: #20c6b7;
+--top-right-blur-2: #4d9abf;
 --bttm-left-blur-1: #de3641;
 --bttm-left-blur-2: #e46b73;
 ```
 
 ## Remove Styling
 
-If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/angular-quickstart/blob/tn/designUpdates/src/demo-styling.css) file. 
+If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/angular-quickstart/blob/tn/designUpdates/src/demo-styling.css) file.
 
 ## Testing
 
@@ -95,7 +98,7 @@ For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testin
 -    enable = true
 -
 -  [plugins.inputs]
--    enable = false 
+-    enable = false
 ```
 
 If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:

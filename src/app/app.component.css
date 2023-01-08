@@ -11,9 +11,9 @@
 }
 
 .resource-list ul {
-    text-align: left;
-    margin: 0 auto;
-    width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  width: 300px;
 }
 
 .resource-list a {
@@ -31,5 +31,5 @@ footer {
 }
 
 footer img {
-    width: 20px;
+  width: 20px;
 }
