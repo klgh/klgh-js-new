@@ -3,9 +3,7 @@
   "ignorePatterns": ["projects/**/*"],
   "overrides": [
     {
-      "plugins": [
-        "prettier"
-      ],
+      "plugins": ["prettier"],
       "files": ["*.ts"],
       "extends": [
         "eslint:recommended",
@@ -16,6 +14,8 @@
         "plugin:prettier/recommended"
       ],
       "rules": {
+        "new-cap": "off",
+        "require-jsdoc": "off",
         "prettier/prettier": "error",
         "@angular-eslint/directive-selector": [
           "error",

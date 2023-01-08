@@ -24,6 +24,13 @@
     "cypress": "^10.0.3",
     "eslint-plugin-prettier": "^4.2.1",
     "rxjs": "~7.6.0",
+    "sass": "^1.57.1",
+    "scss-scaffold": "^0.0.5",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^6.1.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
