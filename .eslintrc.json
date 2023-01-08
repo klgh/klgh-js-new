@@ -3,14 +3,20 @@
   "ignorePatterns": ["projects/**/*"],
   "overrides": [
     {
+      "plugins": [
+        "prettier"
+      ],
       "files": ["*.ts"],
       "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "google",
+        "plugin:prettier/recommended"
       ],
       "rules": {
+        "prettier/prettier": "error",
         "@angular-eslint/directive-selector": [
           "error",
           {

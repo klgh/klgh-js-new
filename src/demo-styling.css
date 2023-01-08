@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 :root {
-  --main-family: "Poppins", sans-serif;
+  --main-family: 'Poppins', sans-serif;
   --color-bg: linear-gradient(180deg, #ffffff 0%, #aec6dc 100%);
 
   /* Controls the blob blur gradient colors within the main tag's svg */
